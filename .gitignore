@@ -1,0 +1,17 @@
+# Ignore the output directory
+## The output directory will be recreated each time the script is run
+/output
+
+# Ignore input files
+## Input files will not be committed to the repository, but we'll keep
+## the minimum folder structure
+/input/modules/*
+/input/pilots/*
+
+!/input/modules/.gitkeep
+!/input/pilots/.gitkeep
+
+# Ignore the local settings file
+## Each user should create their own settings filed based on the provided
+## settings.template.json file provided
+/settings.json
